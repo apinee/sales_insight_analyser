@@ -31,7 +31,10 @@ The AIMS grid is a powerful project management tool that helps define success cr
 ```sql
 SELECT * FROM customers;```
 
+
+
 ![image](https://github.com/user-attachments/assets/97cafb1a-a73f-41b7-8200-17cbf0e0e65a)
+
 
 
 
