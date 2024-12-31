@@ -33,7 +33,7 @@ SELECT * FROM customers;```
 
 
 
-![image](https://github.com/user-attachments/assets/97cafb1a-a73f-41b7-8200-17cbf0e0e65a)
+![image_alt](https://github.com/apinee/sales_insight_analyser/blob/main/sales_customer.png?raw=true)
 
 
 
