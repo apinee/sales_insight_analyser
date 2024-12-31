@@ -28,8 +28,8 @@ The AIMS grid is a powerful project management tool that helps define success cr
 ## Data Cleaning and Analyzing with MySQL
 
  Show all customer records
-```sql
-SELECT * FROM customers;```
+
+SELECT * FROM customers;
 
 
 
@@ -40,8 +40,8 @@ SELECT * FROM customers;```
 
 
 Show total number of customers
-```sql
-SELECT count(*) FROM customers;```
+
+SELECT count(*) FROM customers;
 
 ![image](https://github.com/user-attachments/assets/bb0c45a4-a342-4e16-b5eb-33449631d476)
 
@@ -49,16 +49,16 @@ SELECT count(*) FROM customers;```
 
 
 Show transactions for Chennai market (market code for chennai is Mark001
-```sql
-SELECT * FROM transactions WHERE market_code='Mark001';```
+
+SELECT * FROM transactions WHERE market_code='Mark001';
 
 ![image](https://github.com/user-attachments/assets/077072e2-6922-4307-b8d4-41f98fed5120)
 
 
 Show transaction where currancy is USD
 
-```sql
-SELECT * FROM transactions WHERE currency="USD";```
+
+SELECT * FROM transactions WHERE currency="USD";
 
 ![image](https://github.com/user-attachments/assets/e7a08298-a79b-44c9-a781-cb5c8ed30436)
 
@@ -66,23 +66,23 @@ SELECT * FROM transactions WHERE currency="USD";```
 Show transactions in 2020 join by date table
 
 
-```sql
+
 SELECT transactions.*, date.* 
 FROM transactions 
 INNER JOIN date ON transactions.order_date=date.date 
-WHERE date.year=2020;```
+WHERE date.year=2020;
 
 ![image](https://github.com/user-attachments/assets/a5bb29ce-0b0d-4efc-b5d9-0a4d93b09669)
 
 
 Show total revenue in year 2020, January Month,
-```sql
+
 SELECT SUM(transactions.sales_amount) 
 FROM transactions 
 INNER JOIN date ON transactions.order_date = date.date 
 WHERE date.year = 2020 
   AND date.month_name = 'January' 
-  AND (transactions.currency = 'INR' OR transactions.currency = 'USD');```
+  AND (transactions.currency = 'INR' OR transactions.currency = 'USD');
 
 ![image](https://github.com/user-attachments/assets/40a19a97-fd78-46cb-a96b-8ac6ec25696f)
 
@@ -91,12 +91,12 @@ WHERE date.year = 2020
 Show total revenue in year 2020 in Chennai
 
 
-```sql
+
 SELECT SUM(transactions.sales_amount) 
 FROM transactions 
 INNER JOIN date ON transactions.order_date=date.date 
 WHERE date.year=2020 
-  AND transactions.market_code="Mark001";```
+  AND transactions.market_code="Mark001";
 
 ![image](https://github.com/user-attachments/assets/1ede5aaa-1472-4da8-bd59-66813a13f642)
 
