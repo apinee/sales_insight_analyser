@@ -112,7 +112,8 @@ By using these MySQL operations, we obtained insights into the sum of the data a
 # Power BI Dashboard
 
 
-![ABC_BI_report](https://github.com/user-attachments/assets/532610a2-89ad-49ee-8268-680eb47ed1c1)
+
+![ABC_BI_report](https://github.com/user-attachments/assets/b52dc9d4-0363-4461-8152-ea5edb70ef39)
 
 
  
