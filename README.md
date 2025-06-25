@@ -10,13 +10,13 @@ Implementing a dashboard solution like Power BI allows Apoorva to visualize data
 
 ## Project Planning
 
-The second part of this project includes project planning. Project planning for data analytics at AtliQ Hardware involves using the AIMS grid to clarify purpose, stakeholders, end results, and success criteria effectively. This structured approach facilitates better project outcomes and resource management.
+The second part of this project includes project planning. Project planning for data analytics at ABC Hardware involves using the AIMS grid to clarify purpose, stakeholders, end results, and success criteria effectively. This structured approach facilitates better project outcomes and resource management.
 
 ### AIMS Grid Components
 
 1. **Identifying Pain Points**
-   - The first component emphasizes identifying the key pain points in the project, ensuring focused efforts on addressing specific challenges. This clarity helps streamline the project direction.
-
+   - The first component emphasizes identifying the key pain points in the project, ensuring focused efforts on addressing specific challenges. This clarity helps streamline the project direction. We want to know in which region the business is not doing well. Where the business is burning. 
+ 
 2. **Stakeholder Involvement**
    - Stakeholder involvement is crucial, including teams from marketing, sales, IT, and data analytics. This ensures comprehensive insights and collaboration throughout the project's lifecycle. This inclusive approach enhances project effectiveness.
 
@@ -109,6 +109,10 @@ By using these MySQL operations, we obtained insights into the sum of the data a
 ![schema diagram](https://github.com/user-attachments/assets/fb5c28d1-d816-413c-a112-a111c35dd0c2)
 
 
+# Power BI Dashboard
+
+
+![ABC_BI_report](https://github.com/user-attachments/assets/532610a2-89ad-49ee-8268-680eb47ed1c1)
 
 
  
